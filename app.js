@@ -2,10 +2,9 @@ function onReady() {
   const addToDoForm = document.getElementById('addToDoForm');
    const newToDoText = document.getElementById('newToDoText');
    const toDoList = document.getElementById('toDoList');
-   addToDoForm.addEventListener();
 
-   addToDoForm.addEventListener('submit', () => {
-     event.preventDefault();
+   addToDoForm.addEventListener('submit', event => {
+   event.preventDefault();
      // get the text
     let title = newToDoText.value;
     // create a new li
@@ -27,8 +26,8 @@ function onReady() {
     newToDoText.value = '';
 
   });
-}
+
+  }
 window.onload = function() {
-   alert("The window has loaded!");
-    onReady();
+      onReady();
  };
