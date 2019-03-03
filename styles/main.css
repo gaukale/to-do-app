@@ -1,0 +1,23 @@
+h1 {
+ color: blue;
+ font-weight: bold;
+ font-family:sans-serif;
+font-size: 3rem;
+}
+label {
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+}
+button {
+
+  font-weight: bold;
+  font-style: italic;
+  color: green;
+}
+ul{
+  color: blue;
+  font-weight: bold;
+  font-style: italic;
+
+}
