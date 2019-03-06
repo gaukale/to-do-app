@@ -37,7 +37,6 @@ function onReady() {
       toDoList.appendChild(newLi);
       newLi.appendChild(checkbox);
       newLi.appendChild(removeLi);                                 //update the DOM//
-
 });
 
   }
@@ -45,6 +44,7 @@ function onReady() {
   event.preventDefault();
   createNewToDo();                                                 //then call the function//
   });
+}
 
 window.onload = function() {
         onReady();
